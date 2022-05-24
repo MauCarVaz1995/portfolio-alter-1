@@ -9,64 +9,65 @@
     <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
-   <header>
+    <header class="header">
         <div>
-            <figure>
+            <figure class="logo">
                 <img src="./img/logamau.png" alt="Logo de https://mauriciocarrillo.com">
             </figure>
-            <nav>
+            <nav class="menu">
                 <ol>
                     <li>
-                        <a href="#portafolio">Portafolio</a>
+                        <a class="link" href="#portafolio">Portafolio</a>
                     </li>
                     <li>
-                        <a href="#experiencia">Experiencia</a>
+                        <a class="link" href="#experiencia">Experiencia</a>
                     </li>
                     <li>
-                        <a href="#contacto">Trabajemos Juntos</a>
+                        <a class="link" href="#contacto">Trabajemos Juntos</a>
                     </li>
                 </ol>
             </nav>
-           </header>
         </div>
-   <section>
-       <h1>
-           Hola! <strong>Soy Mauricio Carrillo</strong> Desarrollador <br/> <strong>JavaScript</strong> con <br> pasión por la <strong>Ciencia de Datos</strong>
-       </h1>
-       <img width="500" height="300px" src="https://images.pexels.com/photos/52608/pexels-photo-52608.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="Imagen de Portada">
-   </section> 
-   <section id="portafolio">
-    <h2>Portafolio (Proyectos Destacados)</h2>
-    <article>
-        <h3>Video</h3>
-        <h6>Reac Native / React</h6>
-        <p><small><strong>Fecha:</strong> 22/05/2022</small></p>
-        <p><small><strong>Puedes verlo en</strong></small> www.maucarvaz.com</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, illum, eos 
-            earum ratione corrupti nihil dolore doloremque explicabo dolor quibusdam velit sit voluptas vero doloribus. Ipsa, natus! Aliquam, ex sit.
-        </p>
-        <img width="500"src="https://images.pexels.com/photos/177598/pexels-photo-177598.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="">
-    </article>
-   </section>
-   <section id="experiencia">
+    </header>
+    <section class="hero">
+        <h1>
+            Hola! <strong>Soy Mauricio Carrillo</strong> Desarrollador <br/> <strong>JavaScript</strong> con <br> pasión por la <strong>Ciencia de Datos</strong>
+        </h1>
+        <img width="500" height="300px" src="https://images.pexels.com/photos/52608/pexels-photo-52608.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="Imagen de Portada">
+    </section> 
+    <section id="portafolio" class="portfolio">
+        <h2>Portafolio (Proyectos Destacados)</h2>
+        <article class="project">
+            <h3 class="project-title">Video</h3>
+            <h6 class="project-course">Reac Native / React</h6>
+            <p class="project-date"><small><strong>Fecha:</strong> 22/05/2022</small></p>
+            <p class="project-url"><small><strong>Puedes verlo en</strong></small> www.maucarvaz.com</p>
+            <p class="project-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, illum, eos 
+                earum ratione corrupti nihil dolore doloremque explicabo dolor quibusdam velit sit voluptas vero doloribus. Ipsa, natus! Aliquam, ex sit.
+            </p>
+            <figure class="project-imageContainer">
+                <img class="project-image" width="500"src="https://images.pexels.com/photos/177598/pexels-photo-177598.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="">
+            </figure>
+        </article>
+    </section>
+    <section id="experiencia">
     <h2>Más sobre mi experiencia</h2>
-    <article>
-        <figure>
-            <img width="500" src="https://images.pexels.com/photos/2608512/pexels-photo-2608512.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="">
+    <article class="event">
+        <figure class="event-imageContainer">
+            <img width="500" class="event-image" src="https://images.pexels.com/photos/2608512/pexels-photo-2608512.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="">
         </figure>
-        <h3>Conf México 2022</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem fugit quia sit voluptatem qui reprehenderit modi quisquam enim officiis accusantium magni, odit et, dolore quo vitae veritatis perferendis maiores vel?</p>
-        <a href="https://www.youtube.com/watch?v=0jgrCKhxE1s" target="_blank">Ver plática</a>
+        <h3 class="event-title">Conf México 2022</h3>
+        <p class="event-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem fugit quia sit voluptatem qui reprehenderit modi quisquam enim officiis accusantium magni, odit et, dolore quo vitae veritatis perferendis maiores vel?</p>
+        <a class="event-url" href="https://www.youtube.com/watch?v=0jgrCKhxE1s" target="_blank">Ver plática</a>
     </article>
-   </section>
-   <section id="contacto">
-    <form action="/suscripcion/">
+    </section>
+    <section id="contacto" class="contact">
+    <form class="form-email" action="/suscripcion/">
         <h3>¿Creamos algo juntos?</h3>
         <input type="text" placeholder="Déjame tu email" id="email">
         <button>Enviar</button>
     </form>
-
-   </section>
-   <footer></footer>
+    </section>
+    <footer class="footer">Footer</footer>
 </body>
 </html>
