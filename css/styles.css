@@ -1,7 +1,7 @@
 :root{
     /*Colores*/
     --gris-oscuro: #1d252c;
-    --gris-claro: #626262;
+    --gris-claro: #fafafa;
     --background-gris: #1b2127;
     --celeste: #026fff;
 }
@@ -37,6 +37,9 @@ h1 strong{
     background-position-x: right;
     background-color: var(--background-gris);
 }
+.portfolio {
+    background: var(--gris-claro);
+}
 .project{
     /*border-top: 10px solid red;
     border-right: 10px solid blue;
@@ -46,8 +49,11 @@ h1 strong{
     border-top-width: 15px;
     border-top-style: solid;*/
     border: 1px solid gray;
-    border-top-left-radius: 10px;
+    border-radius: 10px;
     margin-bottom: 15px;
+    margin: 10px;
+    padding: 20px;
+    background: white;;
 }
 .project-details{
     width: 500px;
