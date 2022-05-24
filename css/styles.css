@@ -1,4 +1,15 @@
-
+:root{
+    /*Colores*/
+    --gris-oscuro: #1d252c;
+    --gris-claro: #626262;
+    --background-gris: #1b2127;
+    --celeste: #026fff;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
 body {
     font-family: 'Source Sans Pro', sans-serif;
 }
@@ -11,15 +22,32 @@ h1 {
     font-size: 40px;
     line-height: 1.5em;
     letter-spacing: -.2px;
+    color: white;
     /*text-transform: uppercase;
     text-decoration: underline;*/
 }
+h1 strong{
+    color: var(--celeste);
+}
 .hero{
     height: 300px;
+    background-image: url("https://images.pexels.com/photos/52608/pexels-photo-52608.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    background-size: 500px 300px;
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-color: var(--background-gris);
 }
 .project-details{
     width: 500px;
 }
 .project-imageContainer{
     width: 500px;
+}
+.header {
+    background-color: var(--background-gris);
+    color: white;
+}
+.header a{
+    color: white;
+    text-decoration: none;
 }
