@@ -5,11 +5,6 @@
     --background-gris: #1b2127;
     --celeste: #026fff;
 }
-*{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
 body {
     font-family: 'Source Sans Pro', sans-serif;
 }
@@ -29,6 +24,15 @@ h1 {
 }
 h1 strong{
     color: var(--celeste);
+
+}
+h2 {
+    color: var(--celeste);
+    text-transform: uppercase;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 40px;
 }
 .hero{
     height: 300px;
@@ -43,6 +47,8 @@ h1 strong{
 }
 .portfolio {
     background: var(--gris-claro);
+    padding: 20px;
+
 }
 .project{
     /*border-top: 10px solid red;
@@ -57,7 +63,24 @@ h1 strong{
     margin-bottom: 15px;
     margin: 10px;
     padding: 20px;
-    background: white;;
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.project-course,.project-date, .project-url{
+    margin: 10px 0;
+}
+.project-description{
+    font-size: 20px;
+}
+.project strong{
+    font-family: 'Fjalla One', sans-serif;
+}
+.project-title{
+    font-size: 30px;
+    margin-bottom: 10px;
+    margin-top: 0;
 }
 .project-details{
     width: 500px;
