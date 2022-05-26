@@ -36,14 +36,19 @@ h2 {
 }
 .hero{
     height: 300px;
-    background-image: url("https://images.pexels.com/photos/52608/pexels-photo-52608.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    /*background-image: url("https://images.pexels.com/photos/52608/pexels-photo-52608.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
     background-size: 500px 300px;
     background-repeat: no-repeat;
-    background-position-x: right;
+    background-position-x: right;*/
     background-color: var(--background-gris);
     display: flex;
     align-items: center;
+    justify-content: space-between;
 
+
+}
+.hero-image{
+    object-fit: cover;
 }
 .portfolio {
     background: var(--gris-claro);
@@ -122,8 +127,9 @@ figure {
     padding: 0 10px;
 }
 .logomau{
-    width: 175px;
-    height: 90px;
+    width: 140px;
+    height: 70px;
+    object-fit: cover;
 }
 .footer{
     background-color: var(--gris-oscuro);
@@ -139,6 +145,7 @@ figure {
 }
 .event-list{
     display: flex;
+    flex-wrap: wrap;
 }
 .event-list-title{
     margin-left: 20px;
@@ -227,4 +234,14 @@ figure {
 }
 .form-email h3{
     font-family: 'Source Sans Pro';
+}
+.wrapper {
+    /*border: 1px solid red;*/
+    width: 1000px;
+    margin: 0 auto;
+    display: inherit;
+    justify-content: inherit;
+    align-items: inherit;
+    height: inherit;
+    flex-wrap: inherit;
 }
